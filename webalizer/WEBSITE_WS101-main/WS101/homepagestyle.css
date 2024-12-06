@@ -1,0 +1,356 @@
+@font-face {
+  font-family: 'manaspc';
+  src: url('FONTS/manaspc.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Press Start 2P'; 
+  src: url('fonts/PressStart2P-Regular.ttf') format('truetype'); 
+}
+@font-face {
+  font-family: 'small_pixel-7';
+  src: url('FONTS/small_pixel-7.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+  
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
+
+.hero-content h1 {
+  font-family:'Press Start 2P' ;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    font-family: 'small_pixel-7';
+}
+
+.cta-btn {
+  font-family: 'small_pixel-7';
+    padding: 12px 30px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .menu-bar {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.menu-bar a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'manaspc', sans-serif;
+}
+
+.menu-bar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+  /* Section styles */
+  section {
+    padding: 50px 20px;
+    min-height: 100vh;
+  }
+  
+  section h2 {
+    margin-bottom: 20px;
+  }
+
+  
+/* header & Body */
+.menu-bar {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.menu-bar a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'manaspc', sans-serif;
+}
+
+.menu-bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+  
+  
+  
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+h1{
+  font-family: 'Press Start 2P';
+}
+
+/* Header Section */
+.header {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+}
+
+.navigation ul li {
+  margin-left: 20px;
+}
+
+.navigation ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.search-signin input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.search-signin a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url(PICTURES/pone.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero .cta {
+  background-color: #ff6f61;
+  padding: 15px 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+img{
+  width: 100%;
+  display: block;
+}
+.container{
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
+
+/* blog */
+.blog-item{
+  border: 1.5px solid #000;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 10px rgba(61, 69, 112, 5.0);
+    backdrop-filter: blur(5px);
+}
+.blog-content{
+  position: relative;
+}
+
+ section{
+  background-image: url(PICTURES/bg.jpg);
+
+ }
+.blog{
+  padding: 4.5rem 0;
+}
+.blog-content{
+  margin: 2rem 0;
+}
+.blog-img{
+  position: relative;
+
+}
+.blog-img span{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: var(--exDark);
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 0.3rem 0.6rem;
+}
+
+.blog-text p{
+  color: black;
+  size: 100px;
+
+}
+.blog-text{
+  font-family: 'small_pixel-7';
+  margin: 2.2rem 0;
+  padding: 0 1rem;
+  
+}
+.blog-text span{
+  font-weight: 300;
+  display: block;
+  padding-bottom: 0.5rem;
+}
+.blog-text h2{
+  font-family: 'Press Start 2P' ;
+  padding: 1rem 0;
+  font-size: 1.65rem;
+  font-weight: 500;
+  color: green;
+}
+.blog-text p{
+  font-weight: 300;
+  font-size: 1.1rem;
+  opacity: 0.9;
+  padding-bottom: 1.2rem;
+}
+.blog-text a{
+  font-family: var(--Roboto);
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--dark);
+  display: inline-block;
+  background: var(--dark);
+  color: #550707;
+  padding: 0.55rem 1.2rem;
+  transition: all 0.5s ease;
+}
+.blog-text a:hover{
+  background: var(--exDark);
+}
+
+
+@media screen and (min-width: 768px){
+  .blog-content{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+  }
+}
+@media screen and (min-width: 992px){
+  .blog-content{
+      grid-template-columns: repeat(3, 1fr);
+  }
+}
+.container{
+  border: 1px solid var(--line-clr);
+  border-radius: 1em;
+  margin-bottom: 20px;
+  padding: min(3em, 15%);
+
+  h2, p { margin-top: 1em }
+}
